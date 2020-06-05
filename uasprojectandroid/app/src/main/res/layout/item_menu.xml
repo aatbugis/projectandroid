@@ -28,8 +28,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pesan"
-            android:id="@+id/btn_pesan"
+            android:text="Pilih"
+            android:id="@+id/btn_pilih"
             android:textSize="20sp"/>
     </LinearLayout>
 
