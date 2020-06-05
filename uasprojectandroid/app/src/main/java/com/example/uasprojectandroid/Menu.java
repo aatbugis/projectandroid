@@ -4,11 +4,17 @@ public class Menu {
     private String nama;
     private String harga;
     private String gambar;
+    private String deskripsi;
 
-    public Menu(String datanama, String dataharga, String datagambar){
+    public Menu(String datanama, String dataharga, String datagambar, String datadeskripsi){
         nama = datanama;
         harga = dataharga;
         gambar = datagambar;
+        deskripsi = datadeskripsi;
+    }
+
+    public String getDeskripsi() {
+        return deskripsi;
     }
 
     public String getNama() {
